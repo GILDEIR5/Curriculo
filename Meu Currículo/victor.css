@@ -1,0 +1,131 @@
+body{
+    color: #000000;
+    background-color: #000000;
+    background-image: url();
+}
+header div{
+    background-color: whitesmoke; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 4px #ffffff;
+    border-radius: 10px;
+}
+div.cabeçalho{
+    text-align: center;
+    color: #ffffff;
+    background-image: url("Imagens/back.png") ;
+    background-size: 100%;
+    
+}
+img.indo{
+   width: 200px;
+   height: 200px;
+   border-radius: 200px; 
+   box-shadow: 0 0 10px rgb(133, 133, 185);
+   transition: transform .5s ease;
+   }
+img.indo:hover {
+    transform: scale(1.1);
+}
+a img.insta {
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 100px;
+}
+a img.gmail {
+    max-width: 30px;
+    max-height: 25px;
+    margin-left: 108px;
+}
+a img.whatsapp {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 103px;
+}
+section.container{
+    
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 4px #000000;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  input:hover{
+    transform: scale(1,1);
+    box-shadow: 1px 2px 4px #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+}
+ input{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #000000;
+    color: #000000;
+    width: 300px;
+    border-style: groove;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    height: 500px;
+    width: 110rem;
+    background-color: #fff;
+    border-radius: 100px;
+    margin: 50px;
+    
+    font-size: 30px;
+    
+}
+textarea{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #000000;
+    color: #000000;
+    width: 300px;
+    border-style: groove;
+    padding-top: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+textarea:hover{
+    transform: scale(1,1);
+    box-shadow: 1px 2px 4px #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+}
+.curriculoGil{
+    margin-left: 50px;
+    padding-left: 500px;
+}
+.curriculoVictor{
+    margin-left: 500px;
+}
+.enviar{
+    margin-left: 80px;
+    transition: transform .5s ease;
+}
+.enviar:hover {
+ transform: scale(1.1);
+    
+}
+
